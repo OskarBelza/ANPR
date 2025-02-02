@@ -57,8 +57,7 @@ Call the `anpr` function with an image and its annotation file:
 ```python
 from anpr import ANPR
 
-result = ANPR.anpr("path_to_image.jpg", "path_to_annotation.xml")
-print(f"Recognized License Plate: {result}")
+ANPR.anpr("path_to_image.jpg", "path_to_annotation.xml")
 ```
 
 ### **How It Works?**
